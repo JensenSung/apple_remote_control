@@ -279,7 +279,7 @@ const char* AppleRemoteDeviceName = "AppleIRController";
 					returnValue = ([dict objectForKey:@"kCGSSessionSecureInputPID"] != nil);					
 				}
 			}
-			CFRelease(arrayRef);
+			// CFRelease(arrayRef);
 		}
 		IOObjectRelease(root);
 	}
